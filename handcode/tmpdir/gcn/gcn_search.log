@@ -1,0 +1,10 @@
+2021-07-07 05:36:15: gcn; cora; best_score, std, best_params 0.8103333512941996 0.013767924595522861 {'learning_rate': 0.019000000000000003, 'dropout': 0.5}
+
+2021-07-07 05:42:55: gcn; citeseer; best_score, std, best_params 0.6796226501464844 0.0 {'learning_rate': 0.016, 'dropout': 0.5}
+
+2021-07-07 05:45:57: gcn; acm; best_score, std, best_params 0.9153305768966675 0.006461226370729054 {'learning_rate': 0.019000000000000003, 'dropout': 0.5}
+
+2021-07-07 08:17:16: gcn; citeseer; best_score, std, best_params 0.708749994635582 0.012676277513023908 {'learning_rate': 0.019000000000000003, 'dropout': 0.5}
+
+2021-07-07 08:17:33: gcn; pubmed; best_score, std, best_params 0.7929999828338623 0.0 {'learning_rate': 0.005, 'dropout': 0.5}
+

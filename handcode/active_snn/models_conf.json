@@ -1,0 +1,215 @@
+{
+  "shared_conf": {
+    "device": "cuda:1",
+    "dataset_dir": "graphfromgg",
+    "test_size": 0.2
+  },
+  "snn_img": {
+    "log_dir": "tmpdir/snn_img",
+    "mnist": {
+      "random_seed" : 3154,
+      "batch_size": 100,
+      "learning_rate": 1e-2,
+      "T": 1,
+      "tau": 80,
+      "v_reset": -100,
+      "v_threshold": 0.20,
+      "train_epoch": 100,
+      "num_per_class": 20
+    }
+  },
+  "snn_al": {
+    "log_dir": "tmpdir/snn_al",
+    "cora": {
+      "random_seed" : 2,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "T": 250,
+      "tau": 80,
+      "v_reset": -100,
+      "v_threshold": 0.20,
+      "train_epoch": 100,
+      "num_per_class": 20
+    },
+    "acm": {
+      "random_seed" : 123,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "T": 200,
+      "tau": 50,
+      "v_reset": -100,
+      "v_threshold": 0.4,
+      "train_epoch": 40
+    },
+    "citeseer": {
+      "random_seed" : 2,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "T": 400,
+      "tau": 80,
+      "v_reset": -100,
+      "v_threshold": 0.4,
+      "train_epoch": 100
+    }
+  },
+  "snn": {
+    "log_dir": "tmpdir/snn",
+    "cora": {
+      "batch_size": 64,
+      "learning_rate": 0.025,
+      "T": 400,
+      "tau": 80,
+      "v_reset": -100,
+      "v_threshold": 0.20,
+      "train_epoch": 200,
+      "ggp_embedding": false,
+      "num_per_class": 20
+    },
+    "acm": {
+      "batch_size": 64,
+      "learning_rate": 2e-2,
+      "T": 100,
+      "tau": 80,
+      "v_reset": -100,
+      "v_threshold": 0.6,
+      "train_epoch": 40
+    },
+    "citeseer": {
+      "batch_size": 64,
+      "learning_rate": 2e-2,
+      "T": 120,
+      "tau": 80,
+      "v_reset": -100,
+      "v_threshold": 0.7,
+      "train_epoch": 40
+    },
+    "pubmed": {
+      "batch_size": 64,
+      "learning_rate": 3e-2,
+      "T": 400,
+      "tau": 100,
+      "v_reset": -100,
+      "v_threshold": 0.1,
+      "train_epoch": 50    
+    }
+  },
+  "gcn": {
+    "log_dir": "tmpdir/gcn",
+    "cora": {
+      "dropout": 0.5,
+      "learning_rate": 0.03,
+      "train_epoch": 100
+    },
+    "citeseer": {
+      "dropout": 0.6,
+      "learning_rate": 0.01,
+      "train_epoch": 100
+    },
+    "pubmed": {
+      "dropout": 0.5,
+      "learning_rate": 0.01,
+      "train_epoch": 100
+    },
+    "acm": {
+      "dropout": 0.5,
+      "learning_rate": 0.0037,
+      "train_epoch": 100
+    }
+  },
+  "sgc": {
+    "log_dir": "tmpdir/sgc",
+    "cora": {
+      "dropout": 0.5,
+      "learning_rate": 0.2,
+      "train_epoch": 100,
+      "weight_decay": 6e-5
+    },
+    "citeseer": {
+      "dropout": 0.5,
+      "learning_rate": 0.01,
+      "train_epoch": 100,
+      "weight_decay": 6e-5
+    },
+    "pubmed": {
+      "dropout": 0.4,
+      "learning_rate": 0.16,
+      "train_epoch": 100,
+      "weight_decay": 4e-5
+    },
+    "acm": {
+      "dropout": 0.5,
+      "learning_rate": 0.03,
+      "train_epoch": 100,
+      "weight_decay": 6e-5
+    }
+  },
+  "gat": {
+    "log_dir": "tmpdir/gat",
+    "cora": {
+      "dropout": 0.4,
+      "learning_rate": 0.023,
+      "train_epoch": 100
+    },
+    "citeseer": {
+      "dropout": 0.5,
+      "learning_rate": 0.01,
+      "train_epoch": 100
+    },
+    "pubmed": {
+      "dropout": 0.5,
+      "learning_rate": 0.022,
+      "train_epoch": 100
+    },
+    "acm": {
+      "dropout": 0.5,
+      "learning_rate": 0.02,
+      "train_epoch": 100
+    }
+  },
+  "fgcn": {
+    "log_dir": "tmpdir/fgcn",
+    "cora": {
+      "dropout": 0.5,
+      "learning_rate": 0.001,
+      "train_epoch": 100
+    },
+    "citeseer": {
+      "dropout": 0.5,
+      "learning_rate": 0.0005,
+      "train_epoch": 100
+    },
+    "pubmed": {
+      "dropout": 0.5,
+      "learning_rate": 1e-3,
+      "train_epoch": 100
+    },
+    "acm": {
+      "dropout": 0.5,
+      "learning_rate": 1e-3,
+      "train_epoch": 100
+    }
+  },
+  "dagnn": {
+    "log_dir": "tmpdir/dagnn",
+    "cora": {
+      "dropout": 0.75,
+      "learning_rate": 0.005,
+      "train_epoch": 100
+    },
+    "citeseer": {
+      "dropout": 0.5,
+      "learning_rate": 0.001,
+      "train_epoch": 100
+    },
+    "pubmed": {
+      "dropout": 0.5,
+      "learning_rate": 0.0065,
+      "train_epoch": 100
+    },
+    "acm": {
+      "dropout": 0.5,
+      "learning_rate": 6e-3,
+      "train_epoch": 100
+    }
+  }
+}

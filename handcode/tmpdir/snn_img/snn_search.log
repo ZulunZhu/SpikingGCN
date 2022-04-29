@@ -1,0 +1,387 @@
+2021-06-03 04:11:47: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.8672
+2021-06-03 04:27:50: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.8684
+2021-06-03 04:33:21: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.8884
+2021-06-03 04:38:53: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.8985
+2021-06-03 04:44:24: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9036
+2021-06-03 04:49:55: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9063
+2021-06-03 04:55:35: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9095
+2021-06-03 05:00:59: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9119
+2021-06-03 05:06:30: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9127
+2021-06-03 05:12:03: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9139
+2021-06-03 05:17:38: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9156
+2021-06-03 05:23:14: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9149
+2021-06-03 05:28:51: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9171
+2021-06-03 05:34:28: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9165
+2021-06-03 05:40:14: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9170
+2021-06-03 05:45:52: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9183
+2021-06-03 05:51:30: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9180
+2021-06-03 05:57:08: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9202
+2021-06-03 06:02:43: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9189
+2021-06-03 06:08:45: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9184
+2021-06-03 06:14:17: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9206
+2021-06-03 06:19:56: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9207
+2021-06-03 06:25:25: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9213
+2021-06-03 06:30:54: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9211
+2021-06-03 06:36:24: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9206
+2021-06-03 06:41:53: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9219
+2021-06-03 06:47:24: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9211
+2021-06-03 06:52:58: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9224
+2021-06-03 06:58:40: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9218
+2021-06-03 07:04:15: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9215
+2021-06-03 07:09:49: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9225
+2021-06-03 07:15:24: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9219
+2021-06-03 07:20:28: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9222
+2021-06-03 07:24:07: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9215
+2021-06-03 07:27:47: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9221
+2021-06-03 07:34:14: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9225
+2021-06-03 07:41:00: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9218
+2021-06-03 07:47:43: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9210
+2021-06-03 07:54:25: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9224
+2021-06-03 08:01:06: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9218
+2021-06-03 08:07:46: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9223
+2021-06-03 08:14:26: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9222
+2021-06-03 08:21:06: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9228
+2021-06-03 08:27:46: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9228
+2021-06-03 08:34:26: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9216
+2021-06-03 08:41:06: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9214
+2021-06-03 08:48:34: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9227
+2021-06-03 08:55:26: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9229
+2021-06-03 09:02:06: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9223
+2021-06-03 09:08:46: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9235
+2021-06-03 09:15:27: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9225
+2021-06-03 09:22:12: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9235
+2021-06-03 09:29:31: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9237
+2021-06-03 09:36:21: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9234
+2021-06-03 09:43:11: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9227
+2021-06-03 09:50:00: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9223
+2021-06-03 09:56:45: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9233
+2021-06-03 10:03:28: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9228
+2021-06-03 10:11:08: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9226
+2021-06-03 10:17:49: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9220
+2021-06-03 10:24:29: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9242
+2021-06-03 10:31:08: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9232
+2021-06-03 10:37:48: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9228
+2021-06-03 10:44:33: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9227
+2021-06-03 10:51:21: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9225
+2021-06-03 10:58:10: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9235
+2021-06-03 11:04:58: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9229
+2021-06-03 11:11:45: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9228
+2021-06-03 11:18:32: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9237
+2021-06-03 11:25:18: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9240
+2021-06-03 11:33:04: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9232
+2021-06-03 11:39:52: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9242
+2021-06-03 11:46:38: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9236
+2021-06-03 11:53:25: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9243
+2021-06-03 12:00:12: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9238
+2021-06-03 12:06:58: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9228
+2021-06-03 12:13:45: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9231
+2021-06-03 12:20:32: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9244
+2021-06-03 12:27:19: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9235
+2021-06-03 12:34:08: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9237
+2021-06-03 12:40:57: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9244
+2021-06-03 12:47:47: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9242
+2021-06-03 12:55:36: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9247
+2021-06-03 13:02:27: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9233
+2021-06-03 13:09:23: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9237
+2021-06-03 13:16:38: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9253
+2021-06-03 13:23:29: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9247
+2021-06-03 13:30:22: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9245
+2021-06-03 13:37:13: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9232
+2021-06-03 13:44:06: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9249
+2021-06-03 13:50:58: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9238
+2021-06-03 13:57:51: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9248
+2021-06-03 14:04:44: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9246
+2021-06-03 14:11:37: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9243
+2021-06-03 14:19:29: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9246
+2021-06-03 14:26:23: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9253
+2021-06-03 14:33:16: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9239
+2021-06-03 14:40:09: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9250
+2021-06-03 14:47:03: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9234
+2021-06-03 14:53:57: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9247
+2021-06-03 15:00:51: testset'acc: device=cuda:1, dataset=mnist, batch_size=100, learning_rate=0.001, T=200, max_test_accuracy=0.9242
+2021-06-09 05:32:25: testset'Current acc: 0.2979
+2021-06-09 08:33:10: testset'Current acc: 0.8079
+2021-06-09 08:34:32: testset'Current acc: 0.8284
+2021-06-09 08:35:54: testset'Current acc: 0.8483
+2021-06-09 08:37:15: testset'Current acc: 0.8551
+2021-06-09 08:38:37: testset'Current acc: 0.8621
+2021-06-09 08:39:59: testset'Current acc: 0.8703
+2021-06-09 08:41:20: testset'Current acc: 0.8756
+2021-06-09 08:42:43: testset'Current acc: 0.8776
+2021-06-09 08:44:04: testset'Current acc: 0.8801
+2021-06-09 08:45:26: testset'Current acc: 0.8824
+2021-06-09 08:46:47: testset'Current acc: 0.8845
+2021-06-09 08:48:09: testset'Current acc: 0.8863
+2021-06-09 08:49:30: testset'Current acc: 0.8870
+2021-06-09 08:50:52: testset'Current acc: 0.8886
+2021-06-09 08:52:14: testset'Current acc: 0.8899
+2021-06-09 08:53:37: testset'Current acc: 0.8901
+2021-06-09 08:54:59: testset'Current acc: 0.8900
+2021-06-09 08:56:20: testset'Current acc: 0.8924
+2021-06-09 08:57:41: testset'Current acc: 0.8927
+2021-06-09 08:59:03: testset'Current acc: 0.8924
+2021-06-09 09:00:25: testset'Current acc: 0.8941
+2021-06-09 09:01:47: testset'Current acc: 0.8927
+2021-06-09 09:03:09: testset'Current acc: 0.8955
+2021-06-09 09:04:30: testset'Current acc: 0.8948
+2021-06-09 09:05:52: testset'Current acc: 0.8965
+2021-06-09 09:07:13: testset'Current acc: 0.8946
+2021-06-09 09:08:35: testset'Current acc: 0.8959
+2021-06-09 09:09:56: testset'Current acc: 0.8964
+2021-06-09 09:11:18: testset'Current acc: 0.8972
+2021-06-09 09:12:40: testset'Current acc: 0.8968
+2021-06-09 09:14:01: testset'Current acc: 0.8961
+2021-06-09 09:15:23: testset'Current acc: 0.8957
+2021-06-09 09:16:45: testset'Current acc: 0.8973
+2021-06-09 09:18:07: testset'Current acc: 0.8968
+2021-06-09 09:19:29: testset'Current acc: 0.8965
+2021-06-09 09:46:56: testset'Current acc: 0.8033
+2021-06-09 09:48:18: testset'Current acc: 0.8289
+2021-06-09 09:49:40: testset'Current acc: 0.8449
+2021-06-09 09:51:02: testset'Current acc: 0.8569
+2021-06-09 09:52:24: testset'Current acc: 0.8633
+2021-06-09 09:53:47: testset'Current acc: 0.8698
+2021-06-09 09:55:09: testset'Current acc: 0.8755
+2021-06-09 09:56:31: testset'Current acc: 0.8770
+2021-06-09 09:57:54: testset'Current acc: 0.8799
+2021-06-09 09:59:16: testset'Current acc: 0.8834
+2021-06-09 10:00:39: testset'Current acc: 0.8870
+2021-06-09 10:02:01: testset'Current acc: 0.8848
+2021-06-09 10:03:23: testset'Current acc: 0.8875
+2021-06-09 10:04:46: testset'Current acc: 0.8904
+2021-06-09 10:06:08: testset'Current acc: 0.8914
+2021-06-09 10:07:30: testset'Current acc: 0.8928
+2021-06-09 10:08:52: testset'Current acc: 0.8892
+2021-06-09 10:10:14: testset'Current acc: 0.8920
+2021-06-09 10:11:37: testset'Current acc: 0.8921
+2021-06-09 10:12:59: testset'Current acc: 0.8941
+2021-06-09 10:14:22: testset'Current acc: 0.8952
+2021-06-09 10:15:44: testset'Current acc: 0.8953
+2021-06-09 10:17:08: testset'Current acc: 0.8954
+2021-06-09 10:18:30: testset'Current acc: 0.8955
+2021-06-09 10:19:53: testset'Current acc: 0.8960
+2021-06-09 10:21:15: testset'Current acc: 0.8943
+2021-06-09 10:22:37: testset'Current acc: 0.8973
+2021-06-09 10:23:59: testset'Current acc: 0.8979
+2021-06-09 10:25:21: testset'Current acc: 0.8975
+2021-06-09 10:26:44: testset'Current acc: 0.8973
+2021-06-09 10:28:06: testset'Current acc: 0.8969
+2021-06-09 10:29:28: testset'Current acc: 0.8980
+2021-06-09 10:30:50: testset'Current acc: 0.8971
+2021-06-09 10:32:12: testset'Current acc: 0.8972
+2021-06-09 10:33:35: testset'Current acc: 0.8960
+2021-06-09 10:34:57: testset'Current acc: 0.8978
+2021-06-09 10:36:19: testset'Current acc: 0.8969
+2021-06-09 10:37:41: testset'Current acc: 0.8997
+2021-06-09 10:39:04: testset'Current acc: 0.8983
+2021-06-09 10:40:26: testset'Current acc: 0.8985
+2021-06-09 10:41:49: testset'Current acc: 0.8986
+2021-06-09 10:43:11: testset'Current acc: 0.8995
+2021-06-09 10:44:33: testset'Current acc: 0.8986
+2021-06-09 10:45:56: testset'Current acc: 0.8981
+2021-06-09 10:47:18: testset'Current acc: 0.8976
+2021-06-09 10:48:40: testset'Current acc: 0.8992
+2021-06-09 10:50:02: testset'Current acc: 0.9004
+2021-06-09 10:51:25: testset'Current acc: 0.8999
+2021-06-09 10:52:47: testset'Current acc: 0.9000
+2021-06-09 10:54:09: testset'Current acc: 0.8991
+2021-06-09 10:55:31: testset'Current acc: 0.9009
+2021-06-09 10:56:54: testset'Current acc: 0.9023
+2021-06-09 10:58:16: testset'Current acc: 0.9012
+2021-06-09 10:59:38: testset'Current acc: 0.8996
+2021-06-09 11:01:01: testset'Current acc: 0.8984
+2021-06-09 11:02:23: testset'Current acc: 0.9002
+2021-06-09 11:03:45: testset'Current acc: 0.9004
+2021-06-09 11:05:08: testset'Current acc: 0.9004
+2021-06-09 11:06:30: testset'Current acc: 0.9007
+2021-06-09 11:07:52: testset'Current acc: 0.8996
+2021-06-09 11:09:14: testset'Current acc: 0.8996
+2021-06-09 11:10:36: testset'Current acc: 0.8998
+2021-06-09 11:11:59: testset'Current acc: 0.9019
+2021-06-09 11:13:21: testset'Current acc: 0.9000
+2021-06-09 11:14:44: testset'Current acc: 0.8991
+2021-06-09 11:16:06: testset'Current acc: 0.9023
+2021-06-09 11:17:30: testset'Current acc: 0.9001
+2021-06-09 11:18:53: testset'Current acc: 0.9027
+2021-06-09 11:20:16: testset'Current acc: 0.9009
+2021-06-09 11:21:38: testset'Current acc: 0.8997
+2021-06-09 11:23:01: testset'Current acc: 0.8998
+2021-06-09 11:24:24: testset'Current acc: 0.9014
+2021-06-09 11:25:46: testset'Current acc: 0.8999
+2021-06-09 11:27:08: testset'Current acc: 0.9017
+2021-06-09 11:28:30: testset'Current acc: 0.9000
+2021-06-09 11:29:52: testset'Current acc: 0.9004
+2021-06-09 11:31:15: testset'Current acc: 0.9017
+2021-06-09 11:32:37: testset'Current acc: 0.9016
+2021-06-09 11:33:59: testset'Current acc: 0.9021
+2021-06-09 11:35:21: testset'Current acc: 0.9019
+2021-06-09 11:36:44: testset'Current acc: 0.9000
+2021-06-09 11:38:06: testset'Current acc: 0.9016
+2021-06-09 11:39:28: testset'Current acc: 0.9014
+2021-06-09 11:40:50: testset'Current acc: 0.9020
+2021-06-09 11:42:13: testset'Current acc: 0.9023
+2021-06-09 11:43:35: testset'Current acc: 0.9010
+2021-06-09 11:44:57: testset'Current acc: 0.9020
+2021-06-09 11:46:20: testset'Current acc: 0.9026
+2021-06-09 11:47:42: testset'Current acc: 0.9022
+2021-06-09 11:49:04: testset'Current acc: 0.9026
+2021-06-09 11:50:27: testset'Current acc: 0.9025
+2021-06-09 11:51:49: testset'Current acc: 0.9018
+2021-06-09 11:53:11: testset'Current acc: 0.9015
+2021-06-09 11:54:33: testset'Current acc: 0.9033
+2021-06-09 11:55:55: testset'Current acc: 0.9033
+2021-06-09 11:57:18: testset'Current acc: 0.8995
+2021-06-09 11:58:40: testset'Current acc: 0.9022
+2021-06-09 12:00:02: testset'Current acc: 0.9019
+2021-06-09 12:01:25: testset'Current acc: 0.9020
+2021-06-09 12:02:47: testset'Current acc: 0.9025
+2021-06-13 00:08:52: testset'Current acc: 0.0980
+2021-06-13 00:12:22: testset'Current acc: 0.0980
+2021-06-13 00:15:52: testset'Current acc: 0.0552
+2021-06-13 00:20:41: testset'Current acc: 0.9076
+2021-06-13 00:21:31: testset'Current acc: 0.9076
+2021-06-13 00:22:20: testset'Current acc: 0.9113
+2021-06-13 00:23:09: testset'Current acc: 0.9069
+2021-06-13 00:30:05: testset'Current acc: 0.9098
+2021-06-13 00:33:53: testset'Current acc: 0.9115
+2021-06-13 00:37:45: testset'Current acc: 0.9146
+2021-06-13 00:41:36: testset'Current acc: 0.9152
+2021-06-13 00:45:27: testset'Current acc: 0.9146
+2021-06-13 00:49:18: testset'Current acc: 0.9178
+2021-06-13 00:53:09: testset'Current acc: 0.9160
+2021-06-13 00:57:00: testset'Current acc: 0.9186
+2021-06-13 01:00:51: testset'Current acc: 0.9135
+2021-06-13 01:04:42: testset'Current acc: 0.9168
+2021-06-13 01:08:37: testset'Current acc: 0.9174
+2021-06-13 01:12:26: testset'Current acc: 0.9163
+2021-06-13 01:16:17: testset'Current acc: 0.9182
+2021-06-13 01:20:09: testset'Current acc: 0.9205
+2021-06-13 01:24:02: testset'Current acc: 0.9201
+2021-06-13 01:27:50: testset'Current acc: 0.9190
+2021-06-13 01:31:38: testset'Current acc: 0.9218
+2021-06-13 01:35:28: testset'Current acc: 0.9217
+2021-06-13 01:39:19: testset'Current acc: 0.9212
+2021-06-13 01:43:09: testset'Current acc: 0.9187
+2021-06-13 01:47:01: testset'Current acc: 0.9213
+2021-06-13 01:50:48: testset'Current acc: 0.9208
+2021-06-13 01:54:38: testset'Current acc: 0.9162
+2021-06-13 01:58:31: testset'Current acc: 0.9220
+2021-06-13 02:02:24: testset'Current acc: 0.9208
+2021-06-13 02:06:17: testset'Current acc: 0.9188
+2021-06-13 02:10:09: testset'Current acc: 0.9187
+2021-06-13 02:14:01: testset'Current acc: 0.9195
+2021-06-13 02:17:50: testset'Current acc: 0.9211
+2021-06-13 02:21:40: testset'Current acc: 0.9195
+2021-06-13 02:25:30: testset'Current acc: 0.9221
+2021-06-13 02:29:23: testset'Current acc: 0.9196
+2021-06-13 02:33:16: testset'Current acc: 0.9201
+2021-06-13 02:37:10: testset'Current acc: 0.9225
+2021-06-13 02:41:03: testset'Current acc: 0.9210
+2021-06-13 02:44:56: testset'Current acc: 0.9222
+2021-06-13 02:48:47: testset'Current acc: 0.9196
+2021-06-13 02:52:37: testset'Current acc: 0.9213
+2021-06-13 02:56:28: testset'Current acc: 0.9214
+2021-06-13 03:00:16: testset'Current acc: 0.9226
+2021-06-13 03:04:10: testset'Current acc: 0.9210
+2021-06-13 03:08:02: testset'Current acc: 0.9194
+2021-06-13 03:11:52: testset'Current acc: 0.9226
+2021-06-13 03:15:45: testset'Current acc: 0.9198
+2021-06-13 03:19:33: testset'Current acc: 0.9223
+2021-06-13 03:23:25: testset'Current acc: 0.9236
+2021-06-13 03:27:17: testset'Current acc: 0.9237
+2021-06-13 03:31:12: testset'Current acc: 0.9192
+2021-06-13 03:35:01: testset'Current acc: 0.9202
+2021-06-13 03:38:56: testset'Current acc: 0.9227
+2021-06-13 03:42:46: testset'Current acc: 0.9218
+2021-06-13 03:46:41: testset'Current acc: 0.9218
+2021-06-13 03:50:34: testset'Current acc: 0.9231
+2021-06-13 03:54:29: testset'Current acc: 0.9252
+2021-06-13 03:58:21: testset'Current acc: 0.9208
+2021-06-13 04:02:15: testset'Current acc: 0.9230
+2021-06-13 04:06:08: testset'Current acc: 0.9239
+2021-06-13 04:10:03: testset'Current acc: 0.9228
+2021-06-13 04:13:56: testset'Current acc: 0.9226
+2021-06-13 04:17:49: testset'Current acc: 0.9239
+2021-06-13 04:21:39: testset'Current acc: 0.9221
+2021-06-13 04:25:32: testset'Current acc: 0.9248
+2021-06-13 04:29:22: testset'Current acc: 0.9236
+2021-06-13 04:33:11: testset'Current acc: 0.9234
+2021-06-13 04:37:02: testset'Current acc: 0.9218
+2021-06-13 04:40:51: testset'Current acc: 0.9221
+2021-06-13 04:44:39: testset'Current acc: 0.9223
+2021-06-13 04:48:31: testset'Current acc: 0.9237
+2021-06-13 04:52:21: testset'Current acc: 0.9236
+2021-06-13 04:56:13: testset'Current acc: 0.9237
+2021-06-13 05:00:04: testset'Current acc: 0.9226
+2021-06-13 05:03:54: testset'Current acc: 0.9230
+2021-06-13 05:07:43: testset'Current acc: 0.9217
+2021-06-13 05:11:34: testset'Current acc: 0.9229
+2021-06-13 05:15:30: testset'Current acc: 0.9251
+2021-06-13 05:19:22: testset'Current acc: 0.9239
+2021-06-13 05:23:13: testset'Current acc: 0.9253
+2021-06-13 05:27:06: testset'Current acc: 0.9243
+2021-06-13 05:30:58: testset'Current acc: 0.9228
+2021-06-13 05:34:51: testset'Current acc: 0.9229
+2021-06-13 05:38:42: testset'Current acc: 0.9227
+2021-06-13 05:42:33: testset'Current acc: 0.9231
+2021-06-13 05:46:28: testset'Current acc: 0.9233
+2021-06-13 05:50:16: testset'Current acc: 0.9243
+2021-06-13 05:54:05: testset'Current acc: 0.9206
+2021-06-13 05:57:56: testset'Current acc: 0.9232
+2021-06-13 06:01:44: testset'Current acc: 0.9243
+2021-06-13 06:05:35: testset'Current acc: 0.9234
+2021-06-13 06:09:28: testset'Current acc: 0.9244
+2021-06-13 06:13:17: testset'Current acc: 0.9228
+2021-06-13 06:17:09: testset'Current acc: 0.9218
+2021-06-13 06:21:01: testset'Current acc: 0.9213
+2021-06-13 06:24:54: testset'Current acc: 0.9221
+2021-06-13 06:28:46: testset'Current acc: 0.9239
+2021-06-13 06:32:35: testset'Current acc: 0.9230
+2021-06-13 06:36:24: testset'Current acc: 0.9239
+2021-06-13 06:40:18: testset'Current acc: 0.9241
+2021-06-13 06:44:09: testset'Current acc: 0.9233
+2021-06-13 06:48:01: testset'Current acc: 0.9235
+2021-06-13 06:51:55: testset'Current acc: 0.9227
+2021-06-13 08:01:05: testset'Current acc: 0.8590
+2021-06-13 08:04:36: testset'Current acc: 0.8545
+2021-06-13 08:08:06: testset'Current acc: 0.8529
+2021-06-13 08:11:38: testset'Current acc: 0.8650
+2021-06-13 08:15:09: testset'Current acc: 0.8654
+2021-06-13 08:22:34: testset'Current acc: 0.9106
+2021-06-13 08:25:49: testset'Current acc: 0.9154
+2021-06-13 08:29:05: testset'Current acc: 0.9177
+2021-06-13 08:32:20: testset'Current acc: 0.9165
+2021-06-13 08:36:47: testset'Current acc: 0.9010
+2021-06-13 08:37:33: testset'Current acc: 0.9148
+2021-06-13 08:38:44: testset'Current acc: 0.9115
+2021-06-13 08:42:23: testset'Current acc: 0.8613
+2021-06-13 08:43:04: testset'Current acc: 0.8573
+2021-06-13 08:43:46: testset'Current acc: 0.8568
+2021-06-13 08:54:32: testset'Current acc: 0.8528
+2021-06-13 08:55:13: testset'Current acc: 0.8601
+2021-06-13 08:55:54: testset'Current acc: 0.8614
+2021-06-13 08:56:35: testset'Current acc: 0.8488
+2021-06-13 08:57:17: testset'Current acc: 0.8628
+2021-06-13 08:57:58: testset'Current acc: 0.8568
+2021-06-13 08:58:39: testset'Current acc: 0.8524
+2021-06-13 08:59:20: testset'Current acc: 0.8550
+2021-06-18 04:30:00: testset'Current acc: 0.8650
+2021-06-18 04:31:15: testset'Current acc: 0.8631
+2021-06-18 04:32:35: testset'Current acc: 0.8603
+2021-06-18 04:33:16: testset'Current acc: 0.8576
+2021-06-18 04:33:24: testset'Current acc: 0.8532
+2021-06-18 04:33:33: testset'Current acc: 0.8533
+2021-06-18 04:33:42: testset'Current acc: 0.8560
+2021-06-18 04:33:50: testset'Current acc: 0.8583
+2021-06-18 04:33:58: testset'Current acc: 0.8587
+2021-06-18 04:34:07: testset'Current acc: 0.8572
+2021-06-18 04:34:21: testset'Current acc: 0.8515
+2021-06-18 04:34:30: testset'Current acc: 0.8573
+2021-06-18 04:34:37: testset'Current acc: 0.8619
+2021-06-18 04:34:46: testset'Current acc: 0.8657
+2021-06-18 04:34:55: testset'Current acc: 0.8665
+2021-06-18 04:35:05: testset'Current acc: 0.8592
+2021-06-18 04:35:14: testset'Current acc: 0.8623
+2021-06-18 04:35:22: testset'Current acc: 0.8590
+2021-06-18 04:35:31: testset'Current acc: 0.8558
+2021-06-18 04:35:38: testset'Current acc: 0.8450
