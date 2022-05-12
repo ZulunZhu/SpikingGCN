@@ -8,65 +8,61 @@ from model_lif_fc import model_lif_fc
 
 def snn_run(dataname, **new_conf):
   conf, cnf = sharedutils.read_config(), {}
+  cnf.update(conf['shared_conf'])
+  cnf.update(conf['snn'][dataname])
+  # may be some new params
+  cnf.update(new_conf)
+  cnf['log_dir'] = conf['snn']['log_dir']
+  if cnf['v_reset'] == -100: cnf['v_reset'] = None
+  print("batch_size:", cnf["batch_size"])
   rd = datareader.ReadData("~/datasets/datafromgg")
 
   # get fixed dataset，fixed split
-  # data_fixed = rd.get_fixed_splited_data(dataname)
-  # data = data_fixed
-  # mat, tag = rd.conv_graph(data_fixed)
-  # tr_ind, val_ind, ts_ind = data.split_nodes().train_nodes, \
-  # data.split_nodes().val_nodes, data.split_nodes().test_nodes
-  # tr_val_ind = np.hstack((tr_ind,val_ind))
-  # ##adding the validation data
-  # # tr_val_ind = np.hstack((tr_val_ind,ts_ind[:500]))
-  # # ts_ind = ts_ind[500:]
-
-  # tr_val_mat = mat[tr_val_ind]
-  # ts_mat = mat[ts_ind]
-  # tr_val_tag = tag[tr_val_ind]
-  # ts_tag = tag[ts_ind]
-
-
-  #get raw dataset, fixed split
-  data = rd.read_raw_data(dataname)
-  # data = rd.get_fixed_splited_data(dataname)
-
-  mat, tag = rd.conv_graph(data)
-  mat = mat
-  if dataname=="pubmed": mat = rd.normalize_col(mat)
+  data_fixed = rd.get_fixed_splited_data(dataname)
+#   data_fixed = rd.read_raw_data(dataname)  
+  data =data_fixed
+  mat, tag = rd.conv_graph(data_fixed)
+  if dataname=="pubmed" : mat = mat+0.05
   if dataname=="citeseer" : mat = mat+0.05
 
-  # may be some new params
-  cnf.update(conf['shared_conf'])
-  cnf.update(conf['snn'][dataname])
-  cnf.update(new_conf)
+  tr_ind, val_ind, ts_ind = data.split_nodes().train_nodes, \
+  data.split_nodes().val_nodes, data.split_nodes().test_nodes
 
-  cnf['log_dir'] = conf['snn']['log_dir']
-  if cnf['v_reset'] == -100: cnf['v_reset'] = None
-  random = True
+        
+  print("train, valiadation,test's shape:", len(tr_ind), len(val_ind), len(ts_ind))
+  tr_val_ind = np.hstack((tr_ind,val_ind))
+     
 
-  if random == True:
-    tr_val_mat, ts_mat, tr_val_tag, ts_tag = \
-    rd.get_random_splited_data(mat, tag, test_size=0.95)
-    k = pd.DataFrame(mat)
-    u = k.describe()
-    print("tr_mat.shape()",u)
+  tr_val_mat = mat[tr_val_ind]
+  tr_val_tag = tag[tr_val_ind]
+  tr_mat = mat[tr_ind]
+  tr_tag = tag[tr_ind]
+  val_mat = mat[val_ind]
+  val_tag = tag[val_ind]
+  ts_mat = mat[ts_ind]
+  ts_tag = tag[ts_ind]
+  k = pd.DataFrame(mat)
+  u = k.describe()
 
-    train_data_loader, val_data_loader, test_data_loader = rd.numpy2dataloader(data,tr_val_mat, ts_mat,
-      tr_val_tag, ts_tag, batch_size=cnf["batch_size"])
-  else:
-    k = pd.DataFrame(mat)
-    u = k.describe()
-    print("tr_mat.shape()",u)
-    train_data_loader, val_data_loader, test_data_loader = rd.fixed_numpy2dataloader(data, mat, tag,
-    batch_size=cnf["batch_size"])
 
-  print("batch_size:", cnf["batch_size"])
+  self_sample = False
+  
+  if self_sample==True: 
+#     print("tr_mat.shape()",u)
+    train_data_loader, val_data_loader, test_data_loader = rd.sample_numpy2dataloader(20,data_fixed, mat, tag, batch_size=cnf["batch_size"])
+  else: 
+#     print("tr_mat.shape()",u)
+    train_data_loader, val_data_loader, test_data_loader = rd.tr_ts_val_numpy2dataloader(tr_mat, ts_mat, val_mat, tr_tag,
+      ts_tag, val_tag, batch_size=cnf["batch_size"])
+    
+       
+
+  
   print("train, valiadation,test's batch num:", len(train_data_loader), len(val_data_loader), len(test_data_loader))
   
   n_nodes, n_feat, n_flat = mat.shape[0], mat.shape[1], 1
   print("data: %s, num_node_classes: %d" % (dataname, data.graph.num_classes))
-  print(cnf)
+#   print(cnf)
   ret = model_lif_fc(device=cnf["device"], dataset_dir=cnf["dataset_dir"],
                      dataname=dataname, batch_size=cnf["batch_size"], 
                      learning_rate=cnf["learning_rate"], T=cnf["T"], tau=cnf["tau"], 
@@ -74,6 +70,7 @@ def snn_run(dataname, **new_conf):
                      train_epoch=cnf["train_epoch"], log_dir=cnf["log_dir"], n_labels=data.graph.num_classes,
                      n_dim0=n_nodes, n_dim1=n_flat, n_dim2=n_feat, train_data_loader=train_data_loader,
                      val_data_loader=val_data_loader, test_data_loader=test_data_loader)
+  
   return ret
 
 
