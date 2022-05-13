@@ -7,8 +7,8 @@ require: python 3.6+, pytorch and some common packages.
 ```
 conda create -n py36 python=3.6
 conda activate py36
-pip install graphgallery==0.7.2 spikingjelly pandas
-
+pip install graphgallery==0.7.2 pandas
+pip install spikingjelly==0.0.0.0.4
 pip install thop scikit-learn
 ```
 
