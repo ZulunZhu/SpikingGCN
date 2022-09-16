@@ -1,4 +1,4 @@
-import sys, torch, torchvision
+import sys, torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
@@ -75,7 +75,7 @@ def model_lif_fc(dataname, dataset_dir, device, batch_size,
             train_times += 1
         scheduler.step()
         net.eval()
-        sharedutils.plot_array(train_accs)
+        # sharedutils.plot_array(train_accs)
         with torch.no_grad():
             test_sum = 0
             correct_sum = 0

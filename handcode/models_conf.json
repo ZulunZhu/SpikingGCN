@@ -42,15 +42,15 @@
     }
   },
   "snn": {
-    "log_dir": "/home/zlzhu/snn/bsgcn/handcode/tmpdir/snn",
+    "log_dir": "/home/ubuntu/project/SpikingGCN/handcode/tmpdir/snn",
     "cora": {
       "batch_size": 64,
-      "learning_rate": 0.01,
-      "T": 250,
-      "tau": 50,
+      "learning_rate": 2e-3,
+      "T": 200,
+      "tau": 80,
       "v_reset": -100,
       "v_threshold": 0.20,
-      "train_epoch": 100,
+      "train_epoch": 200,
       "ggp_embedding": false,
       "num_per_class": 20
     },

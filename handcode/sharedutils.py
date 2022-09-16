@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib
 from matplotlib.pyplot import plot,savefig
 
-def read_config(config_pth="/home/zlzhu/snn/bsgcn/handcode/models_conf.json"):
+def read_config(config_pth="/home/ubuntu/project/SpikingGCN/handcode/models_conf.json"):
   with open(config_pth, "r") as f:
     return json.load(f)
 

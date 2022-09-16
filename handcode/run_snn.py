@@ -19,7 +19,7 @@ def snn_run(dataname, **new_conf):
 
   # get fixed dataset，fixed split
   data_fixed = rd.get_fixed_splited_data(dataname)
-#   data_fixed = rd.read_raw_data(dataname)  
+  # data_fixed = rd.read_raw_data(dataname)  
   data =data_fixed
   mat, tag = rd.conv_graph(data_fixed)
   if dataname=="pubmed" : mat = mat+0.05

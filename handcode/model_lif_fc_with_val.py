@@ -20,13 +20,15 @@ def model_lif_fc(dataname, dataset_dir, device, batch_size,
     )
     net = net.to(device)
     # Adam opt
-    optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate, weight_decay=0.002)
-    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size = 30, gamma = 0.1)
+#     optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate, weight_decay=0.002)
+#     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size = 30, gamma = 0.1)
+    optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size = 50, gamma = 0.1)
     # Encoder, actually Bernoulli sampling here
     encoder = encoding.PoissonEncoder()
     train_times = 0
     max_val_accuracy = 0
-    model_pth = '/home/zlzhu/snn/bsgcn/handcode/tmpdir/snn/best_snn.model'
+    model_pth = '/home/ubuntu/project/SpikingGCN/handcode/tmpdir/snn/best_snn.model'
     val_accs, train_accs = [], []
 
     for epoch in range(train_epoch):
@@ -70,7 +72,7 @@ def model_lif_fc(dataname, dataset_dir, device, batch_size,
         scheduler.step()
 
         net.eval()
-        sharedutils.plot_array(train_accs)
+#         sharedutils.plot_array(train_accs)
         with torch.no_grad():
             test_sum = 0
             correct_sum = 0

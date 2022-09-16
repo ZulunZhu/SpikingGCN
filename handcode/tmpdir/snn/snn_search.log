@@ -906,3 +906,25 @@
 2021-11-10 23:16:21: -1.5: [0.794]
 2021-11-10 23:29:19: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.01, T=250, max_test_accuracy=0.7300, num_s1: 4184, num_s2: 74, num_s_per_node: 4258
 2021-11-10 23:29:19: -1.5: [0.73]
+2022-09-08 20:28:51: testset'acc: device=cuda:0, dataset=cora, learning_rate=0.025, T=250, max_test_accuracy=0.6040, loss = 0.1412, num_s1: 4191, num_s2: 3, num_s_per_node: 4194
+2022-09-08 20:28:51: -1.5: [0.604]
+2022-09-08 20:33:43: testset'acc: device=cuda:0, dataset=citeseer, learning_rate=0.01, T=400, max_test_accuracy=0.7040, loss = 0.1444, num_s1: 86274, num_s2: 192, num_s_per_node: 86466
+2022-09-08 20:33:43: -1.5: [0.704]
+2022-09-08 20:43:09: testset'acc: device=cuda:0, dataset=cora, learning_rate=0.025, T=200, max_test_accuracy=0.7340, loss = 0.1344, num_s1: 3357, num_s2: 29, num_s_per_node: 3386
+2022-09-08 20:43:09: -1.5: [0.734]
+2022-09-08 21:11:49: testset'acc: device=cuda:0, dataset=cora, learning_rate=0.002, T=400, max_test_accuracy=0.6230, loss = 0.1412, num_s1: 6706, num_s2: 5, num_s_per_node: 6711
+2022-09-08 21:11:49: -1.5: [0.623]
+2022-09-08 21:42:32: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.7110, num_s1: 3355, num_s2: 27, num_s_per_node: 3382
+2022-09-08 21:42:32: -1.5: [0.711]
+2022-09-08 21:50:20: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.7360, num_s1: 3351, num_s2: 35, num_s_per_node: 3386
+2022-09-08 21:50:20: -1.5: [0.736]
+2022-09-08 21:58:41: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.7730, num_s1: 3356, num_s2: 95, num_s_per_node: 3451
+2022-09-08 22:00:27: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.7730, num_s1: 3356, num_s2: 102, num_s_per_node: 3458
+2022-09-08 22:04:54: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.7040, num_s1: 3355, num_s2: 36, num_s_per_node: 3391
+2022-09-08 22:04:54: -1.5: [0.704]
+2022-09-08 22:10:17: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.7300, num_s1: 3348, num_s2: 35, num_s_per_node: 3383
+2022-09-08 22:10:17: -1.5: [0.73]
+2022-09-08 22:12:18: testset'acc: device=cuda:0, dataset=citeseer, batch_size=64, learning_rate=0.01, T=400, max_test_accuracy=0.7270, num_s1: 86288, num_s2: 327, num_s_per_node: 86615
+2022-09-08 22:12:18: -1.5: [0.727]
+2022-09-08 22:15:14: testset'acc: device=cuda:0, dataset=cora, batch_size=64, learning_rate=0.002, T=200, max_test_accuracy=0.8080, num_s1: 17683, num_s2: 196, num_s_per_node: 17879
+2022-09-08 22:15:14: -1.5: [0.808]

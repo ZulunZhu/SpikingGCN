@@ -1,0 +1,17 @@
+[I 21:29:14.826 NotebookApp] The port 8888 is already in use, trying another port.
+[I 21:29:14.826 NotebookApp] Serving notebooks from local directory: /home/ubuntu/project/SpikingGCN/handcode
+[I 21:29:14.826 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:29:14.826 NotebookApp] http://localhost:8889/?token=a5c8240001b5146b2c6944be4b2b3875149aff045571f0a6
+[I 21:29:14.826 NotebookApp]  or http://127.0.0.1:8889/?token=a5c8240001b5146b2c6944be4b2b3875149aff045571f0a6
+[I 21:29:14.826 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:29:14.829 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:29:14.829 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-84627-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=a5c8240001b5146b2c6944be4b2b3875149aff045571f0a6
+     or http://127.0.0.1:8889/?token=a5c8240001b5146b2c6944be4b2b3875149aff045571f0a6
+[I 21:29:29.342 NotebookApp] Interrupted...
+[I 21:29:29.343 NotebookApp] Shutting down 0 kernels
+[I 21:29:29.344 NotebookApp] Shutting down 0 terminals
